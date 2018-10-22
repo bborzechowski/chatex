@@ -1,0 +1,38 @@
+
+body {
+    background: #1ddced;
+}
+
+#messages {
+    width: 500px;
+    min-width: 390px;
+    height: 600px;
+    background: #fff;
+   padding: 25px;
+    margin: 20px auto;
+    border: solid 1px #040011;
+    overflow-y: scroll;
+
+}
+#messages li {
+
+    width: 90%;
+    padding-left: 15px;
+    margin: 5px 10px 0;
+    background: #1ddced;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#typedText {
+ background: #fff;
+    padding: 5px 15px;
+    font-size: 30px;
+    color: #0eb2c1;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #0eb2c1;
+    cursor: pointer;
+}
